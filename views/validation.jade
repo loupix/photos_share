@@ -1,0 +1,309 @@
+doctype html
+html(lang='en')
+	head
+		title Invitation a voir mes photos
+		style(type="text/css").
+			html {
+			    box-sizing: border-box;
+			    -webkit-font-smoothing: antialiased;
+			    -moz-osx-font-smoothing: grayscale;
+			}
+			body {
+			    color: rgba(0, 0, 0, 0.87);
+			    font-size: 0.875rem;
+			    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			    font-weight: 400;
+			    line-height: 1.43;
+			    letter-spacing: 0.01071em;
+			    padding:0;
+			    margin:0;
+			}
+			.jss4 {
+			    padding-right: 24px;
+			}
+			.jss3 {
+			    flex-grow: 1;
+			}
+			.MuiToolbar-regular {
+			    min-height: 64px;
+			}
+			.MuiToolbar-regular {
+			    min-height: 48px;
+			}
+			.MuiToolbar-regular {
+			    min-height: 56px;
+			}
+			.MuiToolbar-gutters {
+			    padding-left: 24px;
+			    padding-right: 24px;
+			}
+			.MuiToolbar-gutters {
+			    padding-left: 16px;
+			    padding-right: 16px;
+			}
+			.MuiToolbar-root {
+			    display: flex;
+			    position: relative;
+			    align-items: center;
+			}
+
+			.MuiAppBar-colorPrimary {
+			    color: #fff;
+			    background-color: #3f51b5;
+			}
+			.MuiAppBar-positionStatic {
+			    position: static;
+			}
+			.MuiAppBar-root {
+			    width: 100%;
+			    display: flex;
+			    //- z-index: 1100;
+			    box-sizing: border-box;
+			    //- flex-shrink: 0;
+			    flex-direction: column;
+			}
+			.MuiPaper-elevation4 {
+			    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+			}
+			.MuiPaper-root {
+			    //- color: rgba(0, 0, 0, 0.87);
+			    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+			    //- background-color: #fff;
+			}
+
+			.MuiTypography-colorInherit {
+			    color: inherit;
+			}
+			.MuiTypography-noWrap {
+			    overflow: hidden;
+			    white-space: nowrap;
+			    text-overflow: ellipsis;
+			}
+			.MuiTypography-h6 {
+			    font-size: 1.25rem;
+			    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			    font-weight: 500;
+			    line-height: 1.6;
+			    letter-spacing: 0.0075em;
+			}
+			.MuiTypography-root {
+			    margin: 0;
+			}
+			.MuiAppBar-colorPrimary {
+			    color: #fff;
+			}
+
+			.MuiContainer-maxWidthXs {
+			    max-width: 444px;
+			}
+			.MuiContainer-root {
+			    width: 100%;
+			    display: block;
+			    box-sizing: border-box;
+			    margin-left: auto;
+			    margin-right: auto;
+			    padding-left: 16px;
+			    padding-right: 16px;
+			}
+
+			.jss1 {
+			    display: flex;
+			}
+			.jss6 {
+			    height: 100vh;
+			    flex-grow: 1;
+			}
+			.jss197 {
+			    display: flex;
+			    margin-top: 20px;
+			    align-items: center;
+			    flex-direction: column;
+			}
+
+
+			.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+			    padding: 16px;
+			}
+			.jss212 {
+			    display: flex;
+			    overflow: hidden;
+			    flex-wrap: wrap;
+			    justify-content: space-around;
+			    background-color: #fff;
+			}
+			.MuiGrid-grid-sm-3 {
+			    flex-grow: 0;
+			    max-width: 25%;
+			    flex-basis: 25%;
+			}
+			.MuiGrid-grid-xs-12 {
+			    //- flex-grow: 0;
+			    //- max-width: 100%;
+			    //- flex-basis: 100%;
+			}
+			.MuiGrid-item {
+			    margin: 0;
+			    box-sizing: border-box;
+			}
+
+
+			.MuiGrid-spacing-xs-2 {
+			    width: calc(100% + 16px);
+			    margin: -8px;
+			}
+			.MuiGrid-container {
+			    width: 100%;
+			    display: flex;
+			    flex-wrap: wrap;
+			    box-sizing: border-box;
+			}
+
+
+			.jss29 {
+			    height: 100%;
+			    display: flex;
+			    flex-direction: column;
+			}
+			.MuiCard-root {
+			    overflow: hidden;
+			}
+			.MuiPaper-elevation1 {
+			    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+			}
+			.MuiPaper-rounded {
+			    border-radius: 4px;
+			}
+
+
+			.jss37 {
+			    display: block;
+			    overflow: hidden;
+			    flex-wrap: wrap;
+			    justify-content: space-around;
+			    background-color: #fff;
+			}
+			.jss31 {
+			    flex-grow: 1;
+			}
+			.MuiCardContent-root {
+			    padding: 16px;
+			}
+
+
+
+
+			.MuiButton-containedPrimary:hover {
+			    background-color: #303f9f;
+			}
+			.MuiButton-contained:hover {
+			    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+			    //- background-color: #d5d5d5;
+			}
+			.MuiButton-root:hover {
+			    text-decoration: none;
+			    //- background-color: rgba(0, 0, 0, 0.04);
+			}
+			.jss26 {
+			    margin: 24px 0px 16px;
+			}
+			.MuiButton-fullWidth {
+			    width: 100%;
+			}
+			.MuiButton-containedPrimary {
+			    color: #fff;
+			    background-color: #3f51b5;
+			}
+			.MuiButton-contained {
+			    //- color: rgba(0, 0, 0, 0.87);
+			    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+			    //- background-color: #e0e0e0;
+			}
+			.MuiButton-root {
+			    //- color: rgba(0, 0, 0, 0.87);
+			    padding: 6px 16px;
+			    font-size: 0.875rem;
+			    min-width: 64px;
+			    box-sizing: border-box;
+			    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+			    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			    font-weight: 500;
+			    line-height: 1.75;
+			    border-radius: 4px;
+			    letter-spacing: 0.02857em;
+			    text-transform: uppercase;
+			}
+			.MuiButtonBase-root {
+			    //- color: inherit;
+			    border: 0;
+			    cursor: pointer;
+			    //- margin: 0;
+			    display: inline-flex;
+			    outline: 0;
+			    //- padding: 0;
+			    position: relative;
+			    align-items: center;
+			    //- border-radius: 0;
+			    vertical-align: middle;
+			    -moz-appearance: none;
+			    justify-content: center;
+			    text-decoration: none;
+			    -moz-user-select: none;
+			    //- background-color: transparent;
+			    -webkit-appearance: none;
+			    -webkit-tap-highlight-color: transparent;
+			}
+
+			.MuiButton-label {
+			    width: 100%;
+			    display: inherit;
+			    align-items: inherit;
+			    justify-content: inherit;
+			}
+
+
+
+			.MuiTypography-colorTextSecondary {
+			    color: rgba(0, 0, 0, 0.54);
+			}
+			.MuiTypography-alignCenter {
+			    text-align: center;
+			}
+			.MuiTypography-body2 {
+			    font-size: 0.875rem;
+			    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			    font-weight: 400;
+			    line-height: 1.43;
+			    letter-spacing: 0.01071em;
+			}
+			.MuiTypography-root {
+			    margin: 0;
+			}
+
+
+
+	body
+		header.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionStatic.MuiAppBar-colorPrimary.MuiPaper-elevation4
+			div.MuiToolbar-root.MuiToolbar-regular.jss4.MuiToolbar-gutters
+				a.jss3(style="color: inherit; text-decoration: none;", href= hostname)
+					h1.MuiTypography-root.MuiTypography-h6.MuiTypography-colorInherit.MuiTypography-noWrap 𝐏𝐚𝐫𝐭𝐚𝐠𝐞 𝐝'𝐚𝐥𝐛𝐮𝐦 𝐩𝐡𝐨𝐭𝐨
+		div.jss1
+			main.jss6
+				main.MuiContainer-root.MuiContainer-maxWidthXs
+					div.jss197
+						div.MuiPaper-root.MuiCard-root.jss29.MuiPaper-elevation1.MuiPaper-rounded 
+							div.MuiCardContent-root.jss31.jss37
+								p
+									| Bonjour !{user.prenom+" "+user.nom}, vous êtes bien inscrit sur !{hostname} .
+								p
+									| Merci de valider votre email
+									| en cliquant sur le lien suivant.
+								a(style="color: inherit; text-decoration: none;margin:0;padding:0;flex:none;", target="_blank", href= url)
+									button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.jss26.MuiButton-containedPrimary.MuiButton-fullWidth
+										span.MuiButton-label Valider son email
+								p Ou en copiant le lien ci dessous.
+								a(style="color: inherit; text-decoration: none;", target="_blank", href= url) !{url}
+				br
+				br
+				p.MuiTypography-root.MuiTypography-body2.MuiTypography-colorTextSecondary.MuiTypography-alignCenter
+					| Ceci est un message envoyer automatiquement,
+					| merci de ne pas répondre à cet email.
